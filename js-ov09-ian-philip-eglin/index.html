@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desktop application</title>
+  </head>
+  <body>
+
+    Add a new student:
+    <br>
+    <input id="nameInput" type="text"><br>
+    <input id="emailInput" type="text"><br><br>
+    <button id="submitStudent">Legg til</button><br><br>
+
+
+    Students:
+    <ul id="studentList"></ul>
+    <script>
+      require('@babel/register');
+      require('./index.js');
+    </script>
+  </body>
+</html>
