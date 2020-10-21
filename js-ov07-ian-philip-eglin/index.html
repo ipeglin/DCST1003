@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+  <body onload="main()">
+    <h1>Find the hidden button and click it!</h1>
+    <p><b>How many buttons can you click in 15 seconds?</b></p>
+    <div id="timerOutput">Timer: 15</div>
+    <div id="pointsText"></div>
+    <button id="button" onclick="increasePoint()">Click me</button>
+    <div id="outputData"></div>
+    <input type="button" value="Reset" id="resetButton" onclick="reset()" style="visibility:hidden;width:350px;height:35px;margin-left:5em;font-size:20px;background-color:#e7e7e7;">
+
+    <script src="script.js"></script>
+  </body>
+</html>
