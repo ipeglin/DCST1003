@@ -24,3 +24,9 @@ Using containers and arrays to make a simple makeshift version of a painting pro
 
 # JS9 - Package managers
 Using git, node.js and electron to make a program that stores students and their emails in a JSON database.
+
+# JS10 - Database communication and use of multiple JS-files
+A replication of JS9, except this time the script is communicating with a SQL database on the web.
+
+# JS11 - Functional algorythms
+Using simple functions algorythms to simplify tasks.
