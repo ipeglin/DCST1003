@@ -218,7 +218,7 @@ console.log("each element of v multiplied by its index: [" + v.map((element) => 
 console.log("2 multiplied by the sum of v: " + (v.reduce((accu, element) => accu + element, 0)) * 2);
 
 // c
-v.every((element) => element > 0) ? console.log("all elements of v are positive numbers: yes") : console.log("all elements of v are positive numbers: no")
+console.log("all elements of v are positive numbers: ", v.every((element) => element > 0) ? "yes" : "no");
 
 // d
 
