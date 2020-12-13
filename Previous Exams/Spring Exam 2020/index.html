@@ -2,49 +2,43 @@
 
 <html>
     <head>
+        <title>Test</title>
         <meta charset="utf-8">
-        <title>Eksamen H2020</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
     </head>
     <body>
-        <h1>Oppgave 1</h1>
-        <h3>1a) Summer alle tallene fra 1 til n</h3>
-        <label for="n1Input">Skriv et tall</label>
-        <input id="OPG1aInput" name="n1Input" oninput="OPG1a()">
-        <div id="OPG1aOutput"></div><br>
-        
-        <h3>1b) Summer alle tall fra 1 til n som er delelig på 3 eller 5</h3>
-        <label for="n2Input">Skriv er tall</label>
-        <input id="OPG1bInput" name="n2Input" oninput="OPG1b()">
-        <div id="OPG1bOutput"></div><br>
 
-        <h3>1c) Gjett ett hardkodet tall</h3>
-        <label for="guess">Gjett et tall</label>
-        <input id="OPG1cInput" name="guess">
-        <button id="OPG1cSubmit" onclick="OPG1cMain()">Send inn</button>
+        <h1>Oppgave 1</h1>
+        <h3>1a:</h3>
+        Skriv inn et tall:
+        <input id="intStartInput" oninput="sumWithLimiter()">
+        <div id="OPG1aOutput"></div>
+
+        <h3>1b:</h3>
+        Skriv inn et tall:
+        <input id="intStartInput2" oninput="sumWithModulo()">
+        <div id="OPG1bOutput"></div>
+
+        <h3>1c:</h3>
+
+        Gjett ett tall: 
+        <input id="numberGuess">
+        <button id="submitGuess" onclick="submitGuess()">Send inn</button>
         <div id="OPG1cOutput"></div>
 
-
         <h1>Oppgave 2</h1>
-        <h3>2a) Sjekk om en tekst er et palindrom</h3>
-        Skriv en tekst: <input id="OPG2aInput" type="text" oninput="OPG2a()">
+
+        <h3>2a:</h3>
+        Se om et ord er et palindrom: 
+        <input id="wordInput" oninput="isPalindrome()">
         <div id="OPG2aOutput"></div>
 
-        <h3>2b) Sjekk om et år er skuddår</h3>
-        Skriv inn et årstall: <input id="OPG2bInput" oninput="OPG2b()">
+        <h3>2b:</h3>
+        Skriv inn et årstall:
+        <input id="yearInput" oninput="checkLeapYear()">
         <div id="OPG2bOutput"></div>
 
 
         <h1>Oppgave 3</h1>
-        <h3>Endre bakgrunnsfarge og legg til tall</h3>
-
-        <h1>Oppgave 4</h1>
-        <h3>Sjekk console</h3>
 
 
         <script src="index.js"></script>
