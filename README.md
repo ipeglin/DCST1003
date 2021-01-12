@@ -1,4 +1,4 @@
-# DCST1003-Assignments
+# DCST1003 - Assignments
 Assignments for DCST1003 at NTNU Trondheim
 
 # JS1 - Introduction to JavaScript
