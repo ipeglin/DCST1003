@@ -1,7 +1,7 @@
 # DCST1003 - Elementary Programming
 This repository contains assignments and solutions to previous exams in the course [DCST1003](https://www.ntnu.edu/studies/courses/DCST1003) at [NTNU, Trondheim](https://www.ntnu.edu/).
 
-## JS1 - Introduction to JavaScript
+## [JS1 - Introduction to JavaScript](https://github.com/ipeglin/DCST1003/tree/master/Assignments/js-ov01-ian-philip-eglin)
 Getting to know basic JavaScript. Using prompts, simple if-statements and printing to divs.
 
 ## JS2 - Decisions
