@@ -1,4 +1,4 @@
-# DCST1003 - Elementary Programming
+# DCST1003 - Fundemental Programming
 This repository contains assignments and solutions to previous exams in the course [DCST1003(https://www.ntnu.edu/studies/courses/DCST1003) at [NTNU, Trondheim(https://www.ntnu.edu/).
 
 ## [JS1](https://github.com/ipeglin/DCST1003/tree/master/Assignments/js-ov01-ian-philip-eglin) - Introduction to JavaScript
